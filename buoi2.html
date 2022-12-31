@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid;
+            padding: 20px 40px;
+            text-align: center ;
+        }
+    </style>
+</head>
+<body>
+    <p>danh sách</p>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">5</td>
+            <td>6</td>
+            <td rowspan="3">7</td>
+            <td>8</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">10</td>
+            <td>11</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">13</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>    
+        </tr>
+    </table>
+    <p>bai 2</p>
+    <table>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">2</td>
+            <td colspan="2">3</td>
+            <td rowspan="2">4</td>
+            <td rowspan="2">5</td>
+            <td rowspan="2">6</td>
+           
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan="">2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+    </table>
+    <p><input type="text" placeholder="nhập họ và tên"/></p>
+    <p><input type="email" placeholder="nhập email" value="xxx"></p>
+    <p><input type="password" placeholder="nhập password"></p>
+    <p><input type="file"/></p>
+    <p><input type="range" value="50"/></p>
+    <p><input type="number" placeholder="nhập số"/></p>
+    <p><input type="checkbox" checked /> remmember me</p>
+    <p><input type="radio" name="status" value="0"/>độc thân</p>
+    <p><input type="radio" name="status" value="1"/>kết hôn</p>
+    <select>
+        <option>thứ 2</option>
+        <option>thứ 3</option>
+        <option>thứ 4</option>
+        <option>thứ 5</option>
+        <option>thứ 6</option>
+        <option>thứ 7</option>
+        <option>thứ 8</option>
+    </select>
+    <hr/>
+    <p>Title <input type="radio"/> Mr <input type="radio"/> Mrs <input type="radio"/> Miss</p>
+    <p> First name <input type="text"/></p>
+    <p>Last name <input type="text"/></p>
+    <p>Email <input type="email"/></p>
+    <p>Phone number <input type="number"/></p>
+    <p>Password <input type="password"/></p>
+    <p>Confirm password <input type="password"/></p>
+    <p> Country <select>
+        <option>mi</option>
+        <option>viet nam</option>
+        <option>trung quoc</option>
+        <option selected>canada</option>
+        <option>anh</option>
+        <option>phap</option>
+    </p></select>
+    <p> <input type="checkbox"/> Iagree to the <a href="">terms and conditions</a></p>
+    <button> Sign up</button>
+    <section>
+        <option></option>
+    </section>
+    <input type="checkbox"/> 
+    <input type="radio" name="bu"/> grap <input type="radio" name="bu"/> Be <input type="radio" name="bu"/> Goviet
+    <select>
+        <option value="1">thứ hai</option>
+        <option value="2">thứ ba</option>
+        <option value="3">thứ tư</option>
+        <option value="4">thứ năm</option>
+        <option value="5">thứ sáu</option>
+        <option value="6">thứ bảy</option>
+        <option value="7">chủ nhậT</option>
+    </select>
+    <select name="city" id="">
+        <option value="HN">HANOI</option>
+        <option value="HP" selected>HAIPHONG</option>
+        <option value="QN">QUANGNING</option>
+        <option value="HCM">HOCHIMINH</option>
+      </select>
+      <hr/>
+        <h1>PHIẾU ĐĂNG KÍ</h1>
+        <p>Họ và tên: <input type="text"/>(*)</p>
+        <p>Địa chỉ: <input type="text"/></p>
+        <p>Email: <input type="email"/> (*)</p>
+        <p>Giới tính: <input type="radio" name="bu"/> Nam <input type="radio" name="bu"/> Nữ</p>
+        <p>Tuổi: <input type="text"/>(*)</p>
+        <a>Sở thích :
+            <input type="checkbox"/> Thể thao
+            <p><input type="checkbox"/> Văn học</p>
+        </a>
+       
+</body>
+</html>
